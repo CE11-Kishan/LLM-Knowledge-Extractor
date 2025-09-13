@@ -1,0 +1,85 @@
+#############################
+# Python bytecode / caches  #
+#############################
+__pycache__/
+*.py[cod]
+*$py.class
+
+#############################
+# Virtual environments       #
+#############################
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+#############################
+# Environment / secrets      #
+#############################
+.env
+.env.*.local
+*.env
+
+#############################
+# Test / coverage artifacts  #
+#############################
+.pytest_cache/
+.tox/
+.nox/
+.cache/
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+#############################
+# Build / packaging          #
+#############################
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+#############################
+# Type check / analysis      #
+#############################
+.mypy_cache/
+.pytype/
+.pyre/
+
+#############################
+# IDE / editor settings      #
+#############################
+.vscode/
+.idea/
+*.code-workspace
+
+#############################
+# Logs                       #
+#############################
+*.log
+
+#############################
+# OS generated files         #
+#############################
+.DS_Store
+Thumbs.db
+
+#############################
+# SQLite database            #
+#############################
+knowledge.db
+knowledge.db-journal
+test.db
+test.db-journal
+
+#############################
+# Misc                       #
+#############################
+.python-version
