@@ -28,14 +28,15 @@ pip install -r requirements.txt
 ### 2. Set LLM Environment Variables
 
 ```bash
-set OPENAI_API_KEY=your_key_here        
-set OPENAI_MODEL=gpt-4o-mini            
-set OPENAI_ENDPOINT=https://api.openai.com/v1   # optional custom base URL; if omitted default SDK endpoint is used
+set OPENAI_API_KEY=        
+set OPENAI_MODEL=
+set AZURE_OPENAI_API_VERSION=  # only required in case of custom endpoint           
+set OPENAI_ENDPOINT=   # optional custom base URL; if omitted default SDK endpoint is used
 
-Only these three are recognized now. If `OPENAI_ENDPOINT` is provided it will be used as the `base_url`.
+If `OPENAI_ENDPOINT` is provided it will be used as the `base_url`.
 ```
 
-The service requires a valid key; if unavailable requests return 503.
+The service requires a valid keys; if unavailable requests return 503.
 
 ### 3. Run
 
